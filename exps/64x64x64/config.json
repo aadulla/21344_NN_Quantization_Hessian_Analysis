@@ -1,0 +1,14 @@
+{
+    "seed": 1,
+    "layer_sizes": [64, 64, 64],
+    "train_batch_size": 64,
+    "test_batch_size": 1024,
+    "data_dir": "/code/data",
+    "epochs": 20,
+
+    "q_schemes": ["no", "affine", "scale", "kl_div"],
+    "q_layer_nums": [1, 2],
+    "perturb_min": -0.5,
+    "perturb_max": 0.5,
+    "perturb_steps": 20
+ }

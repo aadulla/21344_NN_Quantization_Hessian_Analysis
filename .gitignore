@@ -1,3 +1,9 @@
+# My Stuff
+build/
+data/
+*.DS_Store
+*.ipynb_checkpoints*
+
 # Prerequisites
 *.d
 
